@@ -1,0 +1,80 @@
+gitignore
+# ==========================================
+# HELP FILES
+# ==========================================
+HELP.md
+
+# ==========================================
+# MAVEN
+# ==========================================
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# Local configuration files containing credentials
+application-local.properties
+application-secrets.properties
+
+# ==========================================
+# STS / ECLIPSE
+# ==========================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ==========================================
+# INTELLIJ IDEA
+# ==========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ==========================================
+# NETBEANS
+# ==========================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# GRADLE / BUILD OUTPUT
+# ==========================================
+build/
+
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================================
+# VISUAL STUDIO CODE
+# ==========================================
+.vscode/
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+# Spring config with local DB credentials
+src/main/resources/application.properties
